@@ -1,0 +1,34 @@
+/* <!--
+           New Perspectives on HTML and CSS
+           Tutorial 8
+           Case Problem 4
+
+           Browyer Realty
+           Author: Rajat Hatwat
+           Date:   10/22/2016
+           Filename:         brbase.css
+
+
+    -->*/
+
+
+
+
+body * {
+
+
+   line-height: 1.2em;
+   list-style: none;
+   margin: 0px;
+   padding: 0px;
+   text-decoration: none;
+   vertical-align: baseline;
+}
+
+body {
+   margin: 0px auto;
+   width: 980px;
+}
+p{
+padding: 10px;
+}

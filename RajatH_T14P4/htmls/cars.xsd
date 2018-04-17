@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 14
+   Tutorial case
+
+   Student list schema - Venetian Blind design
+   Author: Rajat Hatwar
+   Date:   12/02/2016
+
+   Filename:         studentsvb.xsd
+   Supporting Files:
+-->
+
+<xsi:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://example.com/higheredtestprep/cars/ns"
+            targetNamespace="http://example.com/higheredtestprep/cars/ns">
+
+   <xsi:element name="cars">
+      <xsi:complexType>
+         <xsi:sequence>
+            <xsi:element name="car" type="sType" minOccurs="1" maxOccurs="unbounded" />
+         </xsi:sequence>
+      </xsi:complexType>
+   </xsi:element>
+
+   <xsi:complexType name="sType">
+      <xsi:group ref="childElements" />
+      <xsi:attributeGroup ref="car" />
+   </xsi:complexType>
+
+   <xsi:group name="childElements">
+      <xsi:sequence>
+         <xsi:element name="title" type="xsi:string" />
+         <xsi:element name="model" type="xsi:string" />
+         <xsi:element name="driver" type="xsi:string" />
+      </xsi:sequence>
+   </xsi:group>
+
+   <xsi:attributeGroup name="car">
+      <xsi:attribute name="cid" type="idType" />
+   </xsi:attributeGroup>
+
+   <xsi:simpleType name="idType">
+      <xsi:restriction base="xsi:ID">
+      </xsi:restriction>
+   </xsi:simpleType>
+</xsi:schema>

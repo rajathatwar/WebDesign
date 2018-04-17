@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 12
+   Case Problem 4
+
+   South Racing cars list
+    Author:Rajat Hatwar
+   Date: 11/18/2016
+
+   Filename:         cars.xml
+   Supporting Files: cars.dtd, south.xml, teams.dtd, teams.xml
+-->
+<c:cars xmlns:c="http://example.com/southracing/cars">
+    <c:car c:cid="nes201" team="t205 t105">
+        <c:title>Straight Away</c:title>
+        <c:model>Nissan</c:model>
+        <c:driver>indy</c:driver>
+    </c:car>
+
+    <c:car c:cid="gda100-5" team="t205 t105">
+        <c:title>Quick Start</c:title>
+        <c:model>General Motors</c:model>
+        <c:driver>indy</c:driver>
+    </c:car>
+
+    <c:car c:cid="gma005-2" team="t205 t105">
+        <c:title>Stop Blocks Laps</c:title>
+        <c:model>Ford</c:model>
+        <c:driver>indy</c:driver>
+    </c:car>
+
+    <c:car c:cid="sob-450V4" team="t205">
+        <c:title>Bendwinder</c:title>
+        <c:model>Ford</c:model>
+        <c:driver>412</c:driver>
+    </c:car>
+
+    <c:car c:cid="hen01-53" team="t205">
+        <c:title>Turn Twister</c:title>
+        <c:model>Nissan</c:model>
+        <c:driver>indy</c:driver>
+    </c:car>
+
+    <c:car c:cid="stu-050V4" team="t105">
+        <c:title>Sleeker</c:title>
+        <c:model>General Motors</c:model>
+        <c:driver>278</c:driver>
+    </c:car>
+
+    <c:car c:cid="dej01-003" team="t105">
+        <c:title>84 Racer</c:title>
+        <c:model>General Motors</c:model>
+        <c:driver>198</c:driver>
+    </c:car>
+</c:cars>
+
+

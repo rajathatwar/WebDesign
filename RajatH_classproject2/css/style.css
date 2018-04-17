@@ -1,0 +1,85 @@
+
+			/* Phase 1 */
+
+			body {
+				background-color: turquoise;
+				font-family:Arial;
+				font-weight: normal;
+                font-size: 16px;
+
+			}
+
+			h1 {
+				font-size:;
+				font-style:;
+				text-align: center;
+			}
+
+			h3 {
+				font-size: 117%;
+                border-bottom: solid;
+
+			}
+
+			/* Phase 2 */
+
+			#fonts {
+				color: orange;
+				font-family:Arial;
+                font-size: larger;
+                font-style: oblique;
+                font-weight: bold;
+			}
+
+			#colors {
+				color:red;
+				font-weight:bold;
+			}
+
+			#backgrounds {
+				/*background-image: url('http://some-image-you-find-on-the-web.jpg');*/
+			}
+
+			#more {
+				color: black;
+                text-decoration: underline;
+                border: dotted;
+                background-color: yellow;
+			}
+
+			/* Phase 3 */
+
+			#PageWrapper {
+				width: 49%;
+                background-color: white;
+                margin-left: 25%;
+                margin-right: auto;
+
+			}
+
+			#TopBar {
+				background-color: blue;
+                color: white;
+                padding: 10px;
+			}
+
+			#LinkBar {
+				width: 21%;
+                background-color: khaki;
+                float: left;
+                height: 315px;
+			}
+
+			#Content {
+				margin-left: 22%;
+                background-color: white;
+                border: mediumslateblue;
+                padding: 1%;
+
+			}
+
+
+.title header{
+text-align: center;
+}
+

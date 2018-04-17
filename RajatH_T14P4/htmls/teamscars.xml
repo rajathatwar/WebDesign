@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/css" href="cars.css"?>
+<?xml-stylesheet  type="text/css" href="teams.css"?>
+
+<!--
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 14
+   Case Problem 4
+
+   South Racing teams list
+   Author: Rajat Hatwar
+   Date:   12/02/2016
+
+   Filename:         teams.xml
+   Supporting Files: teams.css
+-->
+
+<t:teams  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:t="http://example.com/higheredtestprep/teams/ns"
+        xsi:schemaLocation="http://example.com/higheredtestprep/teams/ns teams.xsd" >
+   <t:team tid="t205">
+      <t:title>Rodas Motorsports</t:title>
+      <t:description>#1 Team in racing</t:description>
+      <t:series>Indy</t:series>
+   </t:team>
+   <c:cars xmlns:c="http://example.com/higheredtestprep/cars/ns"
+             xsi:schemaLocation="http://example.com/higheredtestprep/cars/ns cars.xsd" >
+   <c:car cid="nes201">
+      <c:title>Straight Away</c:title>
+      <c:model>Nissan</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+
+   <c:car cid="gda100-5">
+      <c:title>Quick Start</c:title>
+      <c:model>General Motors</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+
+   <c:car cid="gma005-2">
+      <c:title>Stop Blocks Laps</c:title>
+      <c:model>Ford</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+
+   <c:car cid="sob-450V4">
+      <title>Bendwinder</title>
+      <model>Ford</model>
+      <driver>412</driver>
+   </c:car>
+
+   <c:car cid="hen01-53">
+      <c:title>Turn Twister</c:title>
+      <c:model>Nissan</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+</c:cars>
+   <t:team tid="t105">
+      <t:title>SAM Racing</t:title>
+      <t:description>Top 10 over last 5 years</t:description>
+      <t:series>Nascar</t:series>
+   </t:team>
+<c:cars xmlns:c="http://example.com/higheredtestprep/cars/ns"
+             xsi:schemaLocation="http://example.com/higheredtestprep/cars/ns cars.xsd" >
+<c:car cid="nes201">
+      <c:title>Straight Away</c:title>
+      <c:model>Nissan</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+
+   <c:car cid="gda100-5">
+      <c:title>Quick Start</c:title>
+      <c:model>General Motors</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+
+   <c:car cid="gma005-2">
+      <c:title>Stop Blocks Laps</c:title>
+      <c:model>Ford</c:model>
+      <c:driver>indy</c:driver>
+   </c:car>
+   <c:car cid="stu-050V4">
+      <c:title>Sleeker</c:title>
+      <c:model>General Motors</c:model>
+      <c:driver>278</c:driver>
+   </c:car>
+
+   <c:car cid="dej01-003">
+      <c:title>84 Racer</c:title>
+      <c:model>General Motors</c:model>
+      <c:driver>198</c:driver>
+   </c:car>
+</c:cars>
+
+</t:teams>

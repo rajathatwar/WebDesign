@@ -1,0 +1,105 @@
+#main {
+    color: darkgoldenrod;
+}
+
+#head {
+    text-align: center;
+
+}
+
+#prospero {
+    float: left;
+    margin-left: 71px;
+    margin-top: 20px;
+
+}
+
+#miranda {
+    float: left;
+    margin-left: 64px;
+    margin-top: -5px;
+}
+
+#caliban {
+    float: left;
+    margin-left: -37px;
+}
+
+#ferdinand {
+    float: left;
+    margin-left: 61px;
+    margin-top: -46px;
+}
+
+#alonso {
+    float: left;
+    margin-left: 35px;
+    margin-top: -89px;
+}
+
+#antonia {
+    float: left;
+    margin-left: 56px;
+}
+
+#sebastian {
+    float: left;
+    margin-left: 68px;
+    margin-top: -38px;
+}
+
+#gonzalo {
+    float: left;
+    margin-top: -75px;
+}
+
+#trinculo {
+    float: left;
+    margin-left: 87px;
+}
+
+#stefano {
+
+    float: left;
+    margin-left: 56px;
+    margin-top: 74px;
+}
+
+#ariel {
+    float: left;
+    margin-left: -976px;
+    margin-top: 115px;
+}
+
+#adrian {
+    float: left;
+    margin-left: -1177px;
+    margin-top: 192px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

@@ -1,0 +1,79 @@
+/* <!--
+           New Perspectives on HTML and CSS
+           Tutorial 8
+           Case Problem 4
+
+           Browyer Realty
+           Author: Rajat Hatwat
+           Date:   10/22/2016
+           Filename:         brlayout.css
+
+
+    -->*/
+
+article h1 {
+   font-size: 30px;
+   letter-spacing: 5px;
+   font-weight: bold;
+   margin: 10px 0px 20px 20px;
+}
+
+
+#front{
+margin-left: 24%;
+width:auto;
+}
+
+#addr{
+float: left;
+border: 5px solid #555;
+border-radius: 34px;
+background: radial-gradient(#e7dccd,#f1b087);
+box-shadow: #ae6014 5px 5px 5px;
+width: 36%;
+margin-left: 9%;
+height: 89px;
+margin-top: 2%;
+padding: 10px;
+}
+
+
+#price{
+float: left;
+border: 5px solid #555;
+border-radius: 34px;
+background: radial-gradient(#e7dccd,#f1b087);
+box-shadow: #ae6014 5px 5px 5px;
+width: 36%;
+margin-left: 52%;
+height: 89px;
+margin-top: -12%;
+padding: 10px;
+}
+
+h1{
+text-shadow: 2px 2px #FF0000;
+}
+
+
+#fhead{
+margin-top: 21px;
+font-family: Copperplate Gothic Bold;
+font-size: 24px;
+
+}
+
+#bkimg {
+position: absolute;
+top: 1px;
+left: 48px;
+z-index: 1;
+width: 94%;
+opacity: 0.25;
+height: 96px;
+}
+
+
+
+
+

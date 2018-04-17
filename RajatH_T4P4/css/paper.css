@@ -1,0 +1,140 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 4
+   Case Problem 4
+
+   Park City Gazette Style Sheet
+   Author: Rajat Hatwar
+   Date:   09/22/2016
+
+   Filename:         paper.css
+
+
+*/
+header{
+
+padding:5px;
+}
+body{
+
+ background-image: url("../images/parch.jpg");
+ width: 100%;
+min-width: 1000px;
+max-width: 1400px;
+ border-style: solid;
+    border-top: thick double #ff0000;
+
+}
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+
+#main{
+
+border-style: solid;
+    border-top: thick double #ff0000;
+background-image: url("../images/parch2.jpg");
+width: 58%;
+margin-left: 20%;
+margin-top: -81%;
+padding: 10px;
+
+}
+
+#menu{
+
+margin-right: 2%;
+margin-top: -3%;
+padding-top: 1%;
+}
+#menu2{
+margin-left: 7%;
+margin-top: 1%;
+}
+
+
+#outer{
+
+}
+#s1img{
+float: left;
+width: 22%;
+}
+#s3img{
+float:right;
+}
+
+.horizontal {
+
+    align:right;
+    float:right;
+}
+.horizontal ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 6%;
+    padding: 0;
+    width: 73%;
+    background-color: #333333;
+}
+
+.horizontal li a {
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px 18px;
+    text-decoration: none;
+
+}
+
+.horizontal li {
+    border-bottom: 2px solid #bbb;
+
+}
+
+.horizontal li a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.vertical ul {
+    list-style-type: none;
+    margin: 0;
+
+    padding: 0;
+    width: 13%;
+    background-color: #333333;
+}
+
+.vertical li a {
+    display: block;
+    text-align: center;
+    color: aliceblue;
+    padding: 15px 18px;
+    text-decoration: none;
+
+}
+
+.vertical li {
+    border-bottom: 2px solid #bbb;
+
+}
+
+.vertical li a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+footer address {
+
+    text-align: center;
+
+    border-style: solid;
+    border-top: thick double #ff0000;
+margin-top: 1%;
+}

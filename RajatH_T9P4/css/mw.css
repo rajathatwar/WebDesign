@@ -1,0 +1,176 @@
+
+
+          /* New Perspectives on HTML and CSS
+           Tutorial 9
+           Case Problem 4
+
+           MaxWell
+           Author: Rajat Hatwat
+           Date:   10/28/2016
+           Filename:         mw.css
+          */
+
+
+
+
+body {
+width: 95%;
+min-width: 10%;
+max-width: 84%;
+font-family: Viner Hand ITC;
+font-weight: normal;
+font-size: 16px;
+margin: 0px auto;
+position: relative;
+background-image: url("../images/edu.jpg");
+
+}
+
+
+#head{
+float: left;
+margin-left: 23%;
+}
+
+#head img{
+width: 155%;
+padding: 2%;
+}
+
+#mxwl{
+display: block;
+margin: auto;
+width: 43%;
+}
+
+
+#info{
+text-align: center;
+float: left;
+border: 9px solid #555;
+border-radius: 40px;
+box-shadow: inset 0px 280px 1100px #8a4b04;
+width: 99%;
+margin-top: 2%;
+margin-left: -2%;
+color: #2ccee9;
+margin-right: auto;
+margin-bottom: auto;
+padding: 1%;;
+}
+
+#products{
+float: left;
+text-align: center;
+border: 9px solid #555;
+border-radius: 40px;
+box-shadow: inset 100px 437px 1100px #8a4b04;
+width: 99%;
+margin-top: 2%;
+margin-left: -2%;
+color: #2ccee9;
+margin-right: auto;
+margin-bottom: auto;
+padding: 1%;
+}
+
+#comment{
+float: left;
+text-align: center;
+border: 9px solid #555;
+border-radius: 40px;
+box-shadow: inset 0px 281px 1100px #8a4b04;
+width: 99%;
+margin-top: 2%;
+margin-left: -2%;
+color: #2ccee9;
+margin-right: auto;
+margin-bottom: auto;
+padding: 1%;
+}
+
+#extra{
+float: left;
+text-align: center;
+border: 9px solid #555;
+border-radius: 40px;
+box-shadow: inset 0px 301px 1100px #8a4b04;
+width: 99%;
+margin-top: 2%;
+margin-left: -2%;
+color: #2ccee9;
+margin-right: auto;
+margin-bottom: auto;
+padding: 1%;
+}
+
+#val{
+float: left;
+margin-left: 20%;
+margin-top: 10%;
+}
+
+
+
+
+#ver {
+float: left;
+width: 100%;
+margin-right: auto;
+margin-left: 4%;
+margin-top: -2%;
+margin-bottom: auto;
+}
+
+#ver li {
+display: block;
+width: 13%;
+margin-left: 1%;
+margin-bottom: 5px;
+float: left;
+}
+
+#ver li a {
+display: block;
+width: 100%;
+height: 50px;
+line-height: 50px;
+text-align: center;
+color: black;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background-color:  #165E71;
+text-transform: uppercase;
+font-family: Impact, Charcoal, sans-serif;
+}
+
+#ver li a:hover {
+background-color: rgb(209, 232, 216);
+
+-webkit-transform: rotate(-10deg) scale(1.2);
+-moz-transform: rotate(-10deg) scale(1.2);
+-o-transform: rotate(-10deg) scale(1.2);
+}
+
+p{
+text-align: justify;
+}
+h3{
+font-size: 140%;
+}
+
+address {
+float: left;
+font-size: 120%;
+text-align: center;
+padding: 1%;
+background-color: #165E71;
+width: 111%;
+border-style: double;
+margin-top: 13px;
+margin-left: -7%;
+margin-right: auto;
+margin-bottom: auto;
+font-family: Copperplate Gothic Bold;
+}

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!--
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 12
+   Case Problem 4
+
+   South Racing teams DTD
+   Author:Rajat Hatwar
+   Date:11/15/2016
+
+   Filename:         teams.dtd
+   Supporting Files: cars.dtd, cars.xml, south.xml, teams.xml
+-->
+<!DOCTYPE t:teams [
+<!ELEMENT t:teams (t:team+)>
+<!ATTLIST t:teams xmlns:t CDATA #FIXED "http://example.com/southracing/teams">
+
+<!ELEMENT t:team (t:title, t:description,t:series)>
+<!ATTLIST t:team  t:tid ID #REQUIRED>
+<!ATTLIST t:teams cars IDREFS #IMPLIED>
+
+<!ELEMENT t:title (#PCDATA)>
+<!ELEMENT t:description (#PCDATA)>
+<!ELEMENT t:series (#PCDATA)>
+
+]>
+

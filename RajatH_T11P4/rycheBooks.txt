@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+        PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+The Titan's Curse
+I0141382902
+Rick Riordan
+Softcover
+Penguin Books
+7.95
+children, teens, top-seller, fiction, adventure
+
+The Maze of Bones
+I0545060397
+Rick Riordan
+Hardcover 
+Scholastic
+10.95
+children, teens, top-seller, fiction, adventure
+
+100 Words Kids Need to Read by 3rd Grade 
+I0439306183
+Scholastic
+Softcover 
+Scholastic
+5.95
+children, non-fiction, educational
+
+Harry Potter and the Deathly Hallows (Harry Potter #7)
+I9780545010221
+J.K. Rowling
+Hardcover
+Bloomsbury Publishing
+12.95
+children, teens, adult, top-seller, fiction, adventure

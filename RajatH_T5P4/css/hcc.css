@@ -1,0 +1,82 @@
+/*<!--
+       New Perspectives on HTML and CSS
+       Tutorial 5
+       Case Problem 4
+
+       Hamilton Conference Center Room Schedule
+       Author: Rajat Hatwat
+       Date:   09/30/2016
+       Filename:         hcc.css
+
+
+    -->*/
+
+
+
+caption{
+margin-right: 78%;
+padding-top: 20px;
+}
+header{
+margin-left: 10%;
+}
+
+    .horizontal {
+    margin-left: 159px;
+
+}
+
+.horizontal ul {
+ list-style-type: none;
+margin: 0px;
+padding: 0px;
+overflow: hidden;
+background-color: #33ffc1;
+width: 80%;
+margin-left: -48px;
+margin-top: 0%;
+border-style: groove;
+}
+
+.horizontal ul li{
+
+}
+
+.horizontal li {
+    float: left;
+    border-right: 2px solid #bbb;
+
+}
+
+.horizontal li:last-child {
+    border-right: none;
+}
+
+.horizontal li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.horizontal li a:hover:not(.active) {
+    background-color: #111;
+}
+
+footer address {
+float: left;
+text-align: center;
+padding: 1%;
+background-color: #33ffc1;
+width: 100%;
+border-style: double;
+margin-top: 10px;
+}
+
+
+#sTable{
+margin-left:8%;
+}
+

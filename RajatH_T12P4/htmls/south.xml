@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 12
+   Case Problem 4
+
+   South Racing summary
+   Author:Rajat Hatwar
+   Date: 11/15/2016
+
+   Filename:         south.xml
+   Supporting Files: cars.dtd, cars.xml, teams.dtd, teams.xml
+-->
+<!DOCTYPE racing
+[
+ <!ELEMENT racing (t:teams,c:cars)>
+ <!ATTLIST racing xmlns CDATA #FIXED "http://example.com/southracing">
+ <!ENTITY % teamsDTD SYSTEM "teams.dtd">
+ <!ENTITY % carsDTD SYSTEM "cars.dtd" >
+ <!ENTITY teamsList SYSTEM "teams.xml" NDATA unspecified>
+ <!ENTITY carsList SYSTEM "cars.xml" NDATA unspecified>
+ %teamsDTD;
+ %carsDTD;
+]>
+
+   <racing xmlns="http://example.com/southracing">
+
+   &teamsList;
+   &carsList;
+</racing>

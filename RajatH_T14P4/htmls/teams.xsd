@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 14
+   Tutorial case
+
+   Student list schema - Venetian Blind design
+   Author: Rajat Hatwar
+   Date: 12/02/2016
+
+   Filename:         studentsvb.xsd
+   Supporting Files:
+-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://example.com/higheredtestprep/teams/ns"
+            targetNamespace="http://example.com/higheredtestprep/teams/ns">
+            xmlns:t="http://example.com/higheredtestprep/teams/ns">
+
+   <xs:import namespace="http://example.com/higheredtestprep/teams/ns"
+              schemaLocation="teams.xsd"/>
+
+   <xs:element name="teams">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="team" type="sType" minOccurs="1" maxOccurs="unbounded" />
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+
+   <xs:complexType name="sType">
+      <xs:group ref="childElements" />
+      <xs:attributeGroup ref="teamAtt" />
+   </xs:complexType>
+
+   <xs:group name="childElements">
+      <xs:sequence>
+         <xs:element name="title" type="xs:string" />
+         <xs:element name="description" type="xs:string" />
+         <xs:element name="series" type="xs:string" />
+      </xs:sequence>
+   </xs:group>
+
+   <xs:attributeGroup name="teamAtt">
+      <xs:attribute name="tid" type="idType" />
+   </xs:attributeGroup>
+
+   <xs:simpleType name="idType">
+      <xs:restriction base="xs:ID">
+         <xs:pattern value="t\d{3}" />
+      </xs:restriction>
+   </xs:simpleType>
+
+</xs:schema>

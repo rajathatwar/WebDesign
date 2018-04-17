@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+           New Perspectives on HTML and CSS
+           Tutorial 7
+           Case Problem 4
+
+           Boise Youth Symphony Orchestra
+           Author: Rajat Hatwat
+           Date:   10/14/2016
+           Filename:         byso.html
+           Supporting files: bstyles.css, byso.jpg, bysologo.jpg, marquee.js,modernizr-1.5.js
+
+    -->
+
+    <meta charset="UTF-8">
+
+    <title></title>
+
+    <link href="../css/bstyles.css" rel="stylesheet"/>
+
+    <script src="../scripts/modernizr-1.5.js"></script>
+
+
+</head>
+<body>
+<form id="marqueeForm" action="">
+    <div id="pageContent">
+
+        <div id="head">
+            <img src="../images/bysologo.jpg" alt="Boise Youth Symphony Orchestra" style="width: 38%" align="left"/>
+
+        </div>
+
+        <nav>
+            <br>
+            <ul>
+                <li><a href="#">Home Page</a></li>
+                <li><a href="#">About BYSO</a></li>
+                <li><a href="#">Our Director</a></li>
+                <li><a href="#">Join BYSO</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div id="sidebar">
+            <div id="marqueeTxt1">
+
+                <p align="center"><strong> <font face="Copperplate Gothic Bold" size="2" color="orange">Schedule of
+                    Events</font></strong></p>
+            </div>
+
+            <div id="Marquee">
+
+                <center>
+                    <object type="application/x-java-applet" WIDTH="280" HEIGHT="490">
+
+                        <param name="code" value="CreditRoll.class"/>
+                        <param name="fontsize" value="20"/>
+                        <param name="bgcolor" value="474747"/>
+                        <param name="textcolor" value="FFFFFF"/>
+                        <param name="speed" value="50"/>
+
+                        <param name="vspace" value="3"/>
+                        <param name="fadezone" value="10"/>
+
+                        <param name="repeat" value="yes"/>
+                        <param name="text1" value="Holiday Concert"/>
+                        <param name="text2" value="December 14, 7:30 PM"/>
+                        <param name="text3" value="Boise Civic Center"/>
+                        <param name="text4" value=""/>
+                        <param name="text5" value="Christmas Concert"/>
+                        <param name="text6" value="Dec. 16, 7 PM"/>
+                        <param name="text7" value="Our Savior Episcopal Church"/>
+                        <param name="text8" value=""/>
+                        <param name="text9" value="Spring Concert"/>
+                        <param name="text10" value="Feb. 27, 7 PM"/>
+                        <param name="text11" value="Boise Civic Center"/>
+                        <param name="text12" value=""/>
+                        <param name="text13" value="Easter Fanfare"/>
+                        <param name="text14" value="March 14, 9 PM"/>
+                        <param name="text15" value="Our Savior Episcopal Church"/>
+                        <param name="text16" value=""/>
+                        <param name="text17" value="High School MusicFest"/>
+                        <param name="text18" value="May 2, 3 PM"/>
+                        <param name="text19" value="Boise Central High School"/>
+                        <param name="text20" value=""/>
+                        <param name="text21" value="Summer Concert"/>
+                        <param name="text22" value="June 15, 7:30 PM"/>
+                        <param name="text23" value="Frontier Concert Hall"/>
+                        <param name="text24" value=""/>
+                        <param name="text25" value="Fourth Fest"/>
+                        <param name="text26" value="July 4, 4 PM"/>
+                        <param name="text27" value="Canyon View Park"/>
+                        <param name="text28" value=""/>
+                        <param name="text29" value="Frontier Days"/>
+                        <param name="text30" value="August 9, 1 PM"/>
+                        <param name="text31" value="Boise Concert Hall"/>
+
+                        <param name="url" value="http://www.cityofboise.org"/>
+
+                        To view a scrolling marquee, get the latest
+                        <a href="http://www.java.com">
+                            Java Plug-In.
+                        </a>
+                    </object>
+                </center>
+            </div>
+
+        </div>
+        <div id="main">
+            <h1 align="center">Boise Youth Symphony Orchestra</h1>
+            <div id="img2">
+                <img src="../images/byso.jpg" align="left"/>
+            </div>
+            <div id="text">
+                <p align="justify">
+                    The Boise Youth Symphony Orchestra has delighted audiences worldwide with
+                    beautiful music while offering the highest quality musical training to over
+                    1,000 teens throughout Idaho for the past 30 years. BYSO
+                    has established an outstanding reputation for its high quality sound, its
+                    series of commissioned works, and collaborations with prominent musical groups
+                    such as the Idaho and Boise Symphony Orchestras, the Montana Chamber
+                    Orchestra, the Boise Adult Choir and the Western Symphony Orchestra.
+                    Last year the group was invited to serve as the U.S. representative to
+                    the 7th Annual World Festival of youth orchestras in Poznan, Poland.
+                </p>
+                <p align="justify">
+                    Leading this success for the past decade has been Boise Symphony artistic
+                    director Denise Young. In a concert review by John Aehl, music critic for
+                    the <i>Boise Times</i>, Roger Adler writes, "It is a pleasure to report that
+                    the orchestra is playing better than ever."
+                </p>
+            </div>
+            <figure>
+                <audio controls="controls">
+                    <source src="beethoven.mp3"/>
+                    <source src="beethoven.ogg"/>
+
+                    <object data="beethoven.swf"
+                            type="application/x-shockwave-flash"
+                            width="345" height="21">
+
+                        <embed src="beethoven.mp3" type="audio/mpeg" height="21" width="345" controller="yes"/>
+
+
+                    </object>
+                </audio>
+                <figcaption>
+                    Here is a short excerpt from the first movement of Beethoven's Symphony No. 8 in F Major, Op. 93
+                    that the orchestra played in its most recent spring concert.
+                </figcaption>
+            </figure>
+        </div>
+        <div id="footer">
+            <address>
+                <font face="Copperplate Gothic Bold" size="4">
+                    BYSO &#183; 300 Mountain Lane &#183; Boise, Idaho 83702 &#183; (208) 555 - 9114
+                </font>
+            </address>
+
+
+        </div>
+    </div>
+
+</form>
+</body>
+</html>
+
+
+

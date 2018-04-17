@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+           New Perspectives on HTML and CSS
+           Tutorial 6
+           Case Problem 4
+
+           Millennium Computers
+           Author: Rajat Hatwat
+           Date:   10/05/2016
+           Filename:         pc.html
+           Supporting files: mill.css,oform.css,formsubmit.js,modernizr-1.5.js
+
+    -->
+
+    <meta charset="UTF-8">
+
+    <title></title>
+    <script src="modernizr-1.5.js"></script>
+    <link href="../css/oform.css" rel="stylesheet"/>
+    <link href="../css/mill.css" rel="stylesheet"/>
+    <script src="../scripts/modernizr-1.5.js"></script>
+    <script src="../scripts/formsubmit.js"></script>
+
+</head>
+<body>
+<header>
+
+    <img src="../images/mclogo.jpg">
+    <nav>
+        <br/>
+        <br/>
+        <br/>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">our computers</a></li>
+            <li><a href="#">our services</a></li>
+
+        </ul>
+    </nav>
+
+    <article>
+        <br>
+        <h1>Build Your Computer</h1>
+        <p>
+            Thank you for choosing Millennium Computers.We strive to provide the best comprehensive computer service out
+            there.
+        </p>
+
+
+    </article>
+</header>
+
+
+<section>
+    <form id="cOrder" name="cOrder"
+          action="http://www.mill_computers.com/orders/process.cgi"
+          method="post">
+
+
+        <fieldset id="custInfo" style="height:200px">
+
+            <legend>Customer Information</legend>
+
+
+            <label for="fName">First Name* </label>
+            <input name="fName" id="fName"
+                   placeholder="fName"
+                   required="required"/>
+
+            <label for="lName">Last Name* </label>
+            <input name="lName" id="lName"
+                   placeholder="lName"
+                   required="required"/>
+
+            <label for="street">Street address*</label>
+            <input name="street" id="street"
+                   placeholder="street"
+                   required="required"/>
+
+            <label for="city">City*</label>
+            <input name="city" id="city"
+                   placeholder="city"
+                   required="required"/>
+
+            <label for="state">State*</label>
+            <input name="state" id="state"
+                   placeholder="state"
+                   required="required"/>
+
+            <label for="zip">Zip code*</label>
+            <input name="zip" id="zip"
+                   placeholder="#####-####"
+                   pattern="^\d{5}-\d{4}?$"
+                   required="required"/>
+
+            <label for="phone">Phone number*</label>
+            <input name="phone" id="phone" type="tel"
+                   placeholder="##########"
+                   pattern="^\d{10}$|^(\(\(d{3}\)\s*)?\d{3}[\s-]?\d{4}$"
+                   required="required"/>
+
+
+        </fieldset>
+
+        <fieldset id="computer" style="height:200px">
+
+            <legend>Computer Information</legend>
+
+
+            <label for="proc">Processor speed:</label>
+            <select name="pspeed" id="proc">
+                <option>3.2 GHz</option>
+                <option>4.0 GHz</option>
+                <option>5.2 GHz</option>
+            </select>
+
+            <label for="mem">Memory:</label>
+            <select name="mem" id="mem">
+                <option>1 GB</option>
+                <option>2 GB</option>
+                <option>4 GB</option>
+                <option>8 GB</option>
+            </select>
+
+            <label for="mon">Monitor size:</label>
+            <select name="monitor" id="mon">
+                <option>15"</option>
+                <option>17"</option>
+                <option>19"</option>
+                <option>21"</option>
+            </select>
+
+
+            <label for="hd">Hard Drive size:</label>
+            <select name="hd" id="hd">
+                <option>240 GB</option>
+                <option>500 GB</option>
+                <option>750 GB</option>
+                <option>1 TB</option>
+            </select>
+
+
+            <label>DVD Burner?</label>
+            <fieldset class="optionGroup">
+                <label for="dYes">Yes</label>
+                <input type="radio" name="DVD" id="dYes" value="dYes"/>
+
+                <label for="dNo">No</label>
+                <input type="radio" name="DVD" id="dNo" value="dNo"/>
+
+            </fieldset>
+
+            <label>Tuner Card?</label>
+            <fieldset class="optionGroup">
+                <label for="tYes">Yes</label>
+                <input type="radio" name="Tuner" id="tYes" value="tYes"/>
+
+                <label for="tNo">No</label>
+                <input type="radio" name="Tuner" id="tNo" value="tNo"/>
+
+            </fieldset>
+
+            <label>Media Card Reader?</label>
+            <fieldset class="optionGroup">
+                <label for="mYes">Yes</label>
+                <input type="radio" name="Media" id="mYes" value="mYes"/>
+
+                <label for="mNo">No</label>
+                <input type="radio" name="Media" id="mNo" value="mNo"/>
+
+            </fieldset>
+
+
+            <label id="warren">
+                <input type="checkbox" name="warrenty"/>
+                Yes I want the 24 month warrenty!
+            </label>
+
+
+            <br/>
+            <br/>
+
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Send Order"/>
+            <input type="reset" value="Cancel Order"/>
+            <input type="button" value="Contact me" onclick="contact()"/>
+        </p>
+    </form>
+</section>
+<footer>
+
+        <font face="Copperplate Gothic Bold" size="4">
+            © 2016 Rajat Hatwar All Rights Reserved
+        </font>
+
+</footer>
+
+</body>
+</html>

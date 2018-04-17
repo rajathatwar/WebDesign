@@ -1,0 +1,165 @@
+/*
+New Perspectives on HTML and CSS
+Tutorial 7
+Case Problem 4
+
+Boise Youth Symphony Orchestra
+Author: Rajat Hatwat
+Date:   10/14/2016
+Filename:         bstyles.css
+*/
+
+
+body{
+background-color:black;
+}
+
+#marqueeTxt1{
+border: 5px solid #555;
+border-radius: 10px;
+box-shadow: inset 0px 0px 100px #2BB5DA;
+width: 73%;
+margin-left: -20%;
+height: 66px;
+margin-top: 2%;
+}
+
+#pageContent{
+
+}
+#head{
+margin-left: 8%;
+margin-right: auto;
+}
+
+#sidebar {
+width: 33%;
+margin-top: 4%;
+margin-left: 61%;
+float: left;
+margin-right: auto;
+margin-bottom: auto;
+}
+
+img{
+
+float:left;
+
+border: 5px solid #555;
+border-radius: 10px;
+box-shadow: inset 0px 0px 100px #2BB5DA;
+border-left: thick double #219095;
+
+}
+
+
+#main{
+border: 5px solid #555;
+border-radius: 10px;
+box-shadow: inset 0px 0px 100px #2BB5DA;
+float: left;
+width: 43%;
+margin-top: -46%;
+margin-left: 8%;
+color: #2ccee9;
+margin-right: auto;
+margin-bottom: auto;
+padding:1%
+}
+#main img{
+
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+}
+#text{
+padding:1%;
+
+}
+#img2{
+float: left;
+width: 40%;
+}
+
+figure{
+float: left;
+}
+
+
+nav {
+float: left;
+width: 100%;
+margin-right: auto;
+margin-left: 4%;
+}
+
+nav li {
+display: block;
+width: 13%;
+margin-left: 1%;
+margin-bottom: 5px;
+float: left;
+}
+
+nav li a {
+display: block;
+width: 100%;
+height: 50px;
+line-height: 50px;
+text-align: center;
+color: black;
+/*font-size: 0.8em;*/
+
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+background-color:  #165E71;
+text-transform: uppercase;
+font-family: Impact, Charcoal, sans-serif;
+}
+
+nav li a:hover {
+background-color: rgb(209, 232, 216);
+
+-webkit-transform: rotate(-10deg) scale(1.2);
+-moz-transform: rotate(-10deg) scale(1.2);
+-o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+#footer  address {
+float: left;
+text-align: center;
+padding: 1%;
+background-color: #165E71;
+width: 98%;
+border-style: double;
+margin-top: 13px;
+margin-left: -3px;
+margin-right: auto;
+margin-bottom: auto;
+}
+
+
+#Marquee{
+
+color: #a8cbde;
+background: #333;
+padding: 10px;
+width: 69%;
+height: 500px;
+text-align: justify;
+border: 5px solid #555;
+border-radius: 10px;
+box-shadow: inset 0px 0px 100px #186575;
+margin-top: 1%;
+margin-left: -20%;
+margin-right: auto;
+margin-bottom: auto;
+}
+
+audio{
+margin-left: 17%;
+padding-block-end: 1%;
+}

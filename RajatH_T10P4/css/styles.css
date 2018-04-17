@@ -1,0 +1,47 @@
+/* New Perspectives on HTML and CSS
+       Tutorial 10
+       Case Problem 4
+       Happy Birthday News.com
+       Author: Rajat Hatwar
+       Date:   11/03/2016
+       Filename: styles.css
+*/
+
+
+body{
+width: 95%;
+min-width: 10%;
+max-width: 84%;
+font-family: Arial Black;
+font-size: x-large;
+text-shadow: 2px 2px #B3C921;
+margin: 0px auto;
+position: relative;
+background-color: yellow;
+
+}
+
+#logo{
+
+}
+
+img{
+width: 58%;
+margin-left: 18%;
+}
+
+#content{
+text-align: center;
+float: left;
+border: 9px solid #A7AAC2;
+border-radius: 0px;
+width: 99%;
+margin-top: 2%;
+margin-left: -2%;
+color: #010515;
+margin-right: auto;
+margin-bottom: auto;
+padding: 1%;
+background: radial-gradient(#9e90ef,#06031B);
+box-shadow: #ae6014 14px -9px 10px;
+}

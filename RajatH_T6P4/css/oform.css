@@ -1,0 +1,143 @@
+/*
+    <!--
+           New Perspectives on HTML and CSS
+           Tutorial 6
+           Case Problem 4
+
+           Millennium Computers
+           Author: Rajat Hatwat
+           Date:   10/05/2016
+           Filename:  oform.css
+
+    -->*/
+
+
+
+
+/* Field set styles */
+fieldset {
+	background-color: rgb(230,229,255);
+	border: 1px solid rgb(97,127,153);
+	float: left;
+	margin: 10px 0px 10px 2.5%;
+	width: 46%;
+	}
+
+legend {
+    background-color: rgb(0, 0, 183);
+
+	color: white;
+	padding: 3px 0px;
+	text-indent: 5px;
+	width: 100%;
+	}
+
+/* Label styles */
+label {
+	clear: left;
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 4% 7px 5px;
+	width: 40%;
+	}
+
+/* Input control styles */
+input {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px;
+	width: 50%;
+	}
+
+
+
+/* Selection list styles */
+
+select {
+	display: block;
+	float: left;
+	font-size: 0.9em;
+	margin: 7px 0px;
+	}
+
+/* Option button styles */
+
+fieldset.optiongroup {
+	border-width: 0px;
+	}
+
+fieldset.optionGroup label {
+	display: inline;
+	float: none;
+	margin: 0px 3px 0px 0px;
+	width: 30px;
+	}
+
+fieldset.optionGroup input {
+	display: inline;
+	float: none;
+	margin: 0px 20px 0px 0px;
+	width: 20px;
+	}
+
+/*text area styles */
+textarea {
+	display: block;
+	font-size: 0.9em;
+	float: left;
+	height: 150px;
+	margin: 10px 0px;
+	width: 50%;
+	}
+
+/* Check box styles */
+
+#warren {
+	color: rgb(97,127,153);
+	float: none;
+	margin: 10px auto;
+	text-align: center;
+	width: 90%;
+	}
+
+#warren input {
+	display: inline;
+	float: none;
+	width: 20px;
+	}
+
+/* Button styles */
+form p {
+   text-align: center;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"] {
+	display: inline;
+	float: right;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+
+
+	}
+
+
+/* validation styles */
+
+input:focus, select:focus, textarea:focus {
+	background-color: rgb(220,255,220);
+	}
+
+input:focus:valid {
+	background: rgb(77, 186, 44) url(../images/go.png) bottom right no-repeat;
+
+
+	}
+
+input:focus:invalid {
+	background: rgb(255,232,233) url(../images/stop.png) bottom right no-repeat;
+
+
+	}

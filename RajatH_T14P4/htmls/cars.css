@@ -1,0 +1,36 @@
+/*
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 14
+   Case Problem 4
+   
+   Author:   Rajat Hatwar
+   Date:     12/02/2016
+   
+   Filename: cars.css
+
+   This file contains styles used in the teamscars.xml file.
+*/
+
+@namespace c "http://exarnple.com/higheredtestprep/cars/ns" ;
+cars
+{
+border:5px double green;
+}
+
+car {
+   display: list-item;
+   margin-left: 30px;
+   font-family: Garamond, "Times New Roman", Times, serif;
+}
+title {
+   list-style-type: disc;
+   display: block;
+   font-weight: bold;
+}
+model {
+   display: block;
+   color: green;
+}
+driver {
+   color: green;
+}

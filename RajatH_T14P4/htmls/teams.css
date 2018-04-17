@@ -1,0 +1,42 @@
+/*
+   New Perspectives on HTML, CSS, and XML
+   Tutorial 14
+   Case Problem 4
+   
+   Author:   Rajat Hatwar
+   Date:     12/02/2016
+   
+   Filename: teams.css
+
+   This file contains styles used in the teamscars.xml file.
+*/
+@namespace t "http://exarnple.com/higheredtestprep/teams/ns" ;
+teams
+{
+border:5px double green;
+}
+
+team {
+   display: inline-block;
+   padding: 10px;
+   margin: 10px;
+   background: lavender;
+   width: 16em;
+}
+title {
+   display: block;
+   font-size: 16pt;
+   font-weight: bold;
+   font-family: Verdana, Tahoma, Arial, sans-serif;
+}
+description {
+   display: inline;
+   color: green;
+   font-size: 14pt;
+}
+series {
+   color: red;
+   display: inline;
+   margin-left: 10px;
+   font-size: 12pt;
+}

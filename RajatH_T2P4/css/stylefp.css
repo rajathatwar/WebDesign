@@ -1,0 +1,36 @@
+#inner {
+    margin-left: 95px;
+    float: left;
+
+}
+
+#outer {
+    float: left;
+    color: darkgoldenrod;
+}
+
+#the {
+    float: left;
+}
+
+#name {
+    float: left;
+    margin-left: 103px;
+    margin-top: -194px;
+}
+
+#t {
+    float: left;
+    margin-left: -80px;
+}
+
+#small {
+    float: left;
+    margin-left: 91px;
+}
+
+#by {
+    float: left;
+    margin-left: 212px;
+
+}

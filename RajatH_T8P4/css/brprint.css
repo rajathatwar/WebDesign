@@ -1,0 +1,63 @@
+/* <!--
+           New Perspectives on HTML and CSS
+           Tutorial 8
+           Case Problem 4
+
+           Browyer Realty
+           Author: Rajat Hatwat
+           Date:   10/22/2016
+           Filename:         brprint.css
+
+
+    -->*/
+@page {
+   size: 8.5in 11in portrait;
+   margin: 0.5in;
+}
+
+@page {
+size: A4 landscape;
+}
+
+h1, h2, h3, h4, h5 {
+  page-break-after: avoid;
+}
+
+@page:left{
+  @bottom-left {
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+
+
+nav, footer, #bkimg {
+   display: none;
+}
+
+
+
+
+
+article {
+   display: block;
+   page-break-after: always;
+   page-break-inside: avoid;
+}
+
+
+
+
+article h1 {
+   font-size: 28pt;
+   width: 100%;
+}
+
+
+address {
+   font-style: normal;
+}
+
+p {
+   font-size: 14pt;
+   margin: 0in 0in 0.2in 0in;
+}
